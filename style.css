@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #F5F7FB;
+    font-family: 'Karla', sans-serif;
+    color: #293264;
+    height: 100vh;
+}
+
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+span {
+    user-select: none;
+}
+
+
+/*---Button---*/
+.btn {
+    display: block;
+    border: none;
+    background: #4D5B9E;
+    border-radius: 15px;
+    padding: 1em 3.5em;
+    font-family: 'Inter', sans-serif;
+    color: #F5F7FB;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,.05)
+}
+
+.btn:hover {
+    scale: 1.2;
+}
+
+.check-answers {
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-start {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---Start Screen---*/
+.startScreen {
+    text-align: Center;
+}
+
+/*---Questions---*/
+.container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+.question {
+    border-bottom: 1px solid rgba(219, 222, 240);  
+}
+
+.answers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-bottom: 1.5em;
+}
+
+
+.answer {
+    display: inline-block;
+    border: 1px solid #4D5B9E;
+    border-radius: 8px;
+    padding: .25em 1em;
+}
+
+.activ {
+    background: #D6DBF5;
+    border-color: #D6DBF5;
+}
+
+.correct {
+    background: #94D7A2;
+    border-color: #94D7A2;
+}
+
+.wrong {
+    background: #F8BCBC;
+    border-color: #F8BCBC;
+    opacity: .5;
+}
+
+.play-again {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.score {
+    margin-right: 1em;
+}
+
+.message{
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
